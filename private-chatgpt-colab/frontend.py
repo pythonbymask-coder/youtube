@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 API_URL = "https://coud-chemosynthetic-floy.ngrok-free.dev/generate" 
-HEADERS = {"Authorization": "Bearer yj0pg3nRQLlFbu2LBRRBtt2pZGnTtLqDu3aswphj4t4"}
+HEADERS = {"Authorization": "Bearer "}
 
 def query_api(prompt):
     r = requests.post(API_URL, json={"input": prompt}, headers=HEADERS, timeout=360)
